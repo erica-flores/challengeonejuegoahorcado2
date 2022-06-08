@@ -1,0 +1,1 @@
+const words = ['almuerzo', 'viajero', 'html', 'script', 'codificacion', 'challenge', 'ejercicio']

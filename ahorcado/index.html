@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="palabras.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Ahorcado</h1>
+    <div>
+        <canvas id="canvas"></canvas>
+        <div id="usedLetters"></div>
+    </div>
+    <div id="wordContainer"></div>
+    <button id="startButton" class="startButton">START</button>   
+    <button id="agregarButton" class="startButton" onclick="agregarPalabra();">ADD WORD</button>
+    <br>
+    <input type="text" id="palabraAgregada">
+    <p style = "display:none;" id="perdedor">Perdiste master</p>
+    <p style = "display:none;" id="ganador">Ganaste CAPO!!!</p>
+</body>
+</html>
